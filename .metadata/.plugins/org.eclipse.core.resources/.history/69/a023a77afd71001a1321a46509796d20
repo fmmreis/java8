@@ -1,0 +1,25 @@
+package javatime;
+
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
+import org.apache.commons.lang3.time.DateUtils;
+
+public class TimeZoneTest {
+	
+	String format = "yyyy-MM-dd-HH-mm-ss";
+	
+	public static void main(String[] args) {
+		String sourceTimeZone = "UTC" ;
+		LocalDateTime originalDate = LocalDateTime.now(ZoneId.of(sourceTimeZone));
+		
+		String result = "20200329 232344";
+		
+		LocalDateTime resultDate = LocalDateTime.parse(result, DateTimeFormatter.ofPattern(format));
+		
+	}
+	
+
+}

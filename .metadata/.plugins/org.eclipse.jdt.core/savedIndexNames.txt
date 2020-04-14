@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+/home/fmreis/EclipseWorkspaces/Java8Study/.metadata/.plugins/org.eclipse.jdt.core
+3679937808.index
+2971231854.index
+638448494.index
+646308851.index
+3763492230.index
+3550813515.index
+314113703.index
+2179340355.index
+1576525680.index
